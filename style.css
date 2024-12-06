@@ -1,0 +1,103 @@
+/* Estilo básico para o corpo */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o título principal */
+h1 {
+    text-align: center;
+    color: #222;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Botão padrão */
+a.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da tabela */
+table thead {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+table th {
+    text-align: left;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+/* Corpo da tabela */
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+/* Última linha sem borda */
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Zebra-striping */
+table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Links dentro da tabela */
+table td a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+table td a:hover {
+    color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    a.btn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
